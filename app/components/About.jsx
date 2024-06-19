@@ -8,6 +8,7 @@ function About() {
       <div className="container py-5">
         <div className="row py-3">
           <div className="col-md-6 col-sm-12 mb-3">
+            <p className="text-uppercase fw-bold text-secondary mb-0">About</p>
             <h2 className="about-heading">
               Keeping Savings and Investing Simple and Efficient
             </h2>
@@ -28,12 +29,15 @@ function About() {
               {aboutSummary?.map((item) => (
                 <div className="col-md-4 col-sm-12 mb-3" key={item.id}>
                   <div
-                    className="card h-100 rounded-3"
-                    style={{ backgroundColor: "#f2ecf6" }}
+                    className="card h-100 rounded-0"
+                    style={{ backgroundColor: "#effdfe" }}
                   >
                     <div className="card-body ">
-                      <i className={item.icon}></i>
-                      <p className="card-text mt-3 fw-bold">
+                      <i className={item.icon} style={{ color: "#103d66" }}></i>
+                      <p
+                        className="card-text mt-3 fw-bold"
+                        style={{ color: "#103d66" }}
+                      >
                         <small>{item.title}</small>
                       </p>
                     </div>
