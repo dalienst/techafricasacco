@@ -47,7 +47,7 @@ function Why() {
                   <div className="text-start">
                     <h6 className="card-title">Apply for loans</h6>
                     <p className="card-text">
-                      Apply for loans with our online loan application form
+                      Apply for loans with our online loan application form and follow through the onboarding process
                     </p>
                   </div>
                 </div>
