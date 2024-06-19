@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Loans from "./components/Loans";
 import Why from "./components/Why";
 import Portal from "./components/Portal";
+import Footer from "./components/Footer";
 
 function Landing() {
   return (
@@ -15,6 +16,7 @@ function Landing() {
       <Loans />
       <Why />
       <Portal />
+      <Footer />
     </>
   );
 }
