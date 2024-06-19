@@ -1,7 +1,12 @@
 import React from "react";
+import Hero from "./components/Hero";
 
 function Landing() {
-  return <div className="text-danger">Landing</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }
 
 export default Landing;
