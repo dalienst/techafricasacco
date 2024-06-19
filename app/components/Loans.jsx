@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Loans() {
   return (
-    <div className="container-fluid" style={{ backgroundColor: "#e5eaee" }}>
+    <div className="container-fluid bg-light">
       <div className="container py-5">
         <div className="text-center mb-5">
           <h2 className="text-center title fw-bold">Our Loans</h2>
@@ -16,35 +16,35 @@ function Loans() {
           </p>
         </div>
 
-        {/* <section>
-          {loans.map((loan) => (
-            <div className="row  py-2 align-items-center" key={loan.id}>
-              <div className="col-sm-12 col-md-6 mb-3">
-                <Image
-                  src="/house.jpg"
-                  alt="Tech Africa SACCO"
-                  width={450}
-                  height={450}
-                  priority
-                  className="img-fluid shadow"
-                />
-              </div>
-              <div className="col-sm-12 col-md-6 mb-3">
-                <h2 className="about-heading">{loan.title}</h2>
-                <p className="about-text">{loan.description}</p>
-                <button
-                  className="btn rounded-0"
-                  style={{ backgroundColor: "#103d66", color: "#fff" }}
-                >
-                  Get Started
-                </button>
-              </div>
-            </div>
-          ))}
-        </section> */}
-
         <section>
           <div className="row  py-2 align-items-center">
+            <div className="col-sm-12 col-md-6 mb-3">
+              <Image
+                src="/house.jpg"
+                alt="Tech Africa SACCO"
+                width={450}
+                height={450}
+                priority
+                className="img-fluid shadow"
+              />
+            </div>
+            <div className="col-sm-12 col-md-6 mb-3">
+              <h2 className="about-heading">Asset Financing</h2>
+              <p className="about-text">
+                With our Asset Financing options, you can acquire new assets or
+                upgrade existing ones without straining your finances. We
+                provide funding for vehicles, machinery, and other essential
+                assets with flexible terms tailored to meet your needs.
+              </p>
+              <button
+                className="btn rounded-0"
+                style={{ backgroundColor: "#103d66", color: "#fff" }}
+              >
+                Valuation Schema
+              </button>
+            </div>
+          </div>
+          <div className="row  py-2 align-items-center mb-3">
             <div className="col-sm-12 col-md-6 mb-3">
               <h2 className="about-heading">Personal Loan</h2>
               <p className="about-text">
@@ -73,35 +73,7 @@ function Loans() {
             </div>
           </div>
 
-          <div className="row  py-2 align-items-center">
-            <div className="col-sm-12 col-md-6 mb-3">
-              <Image
-                src="/house.jpg"
-                alt="Tech Africa SACCO"
-                width={450}
-                height={450}
-                priority
-                className="img-fluid shadow"
-              />
-            </div>
-            <div className="col-sm-12 col-md-6 mb-3">
-              <h2 className="about-heading">Asset Financing</h2>
-              <p className="about-text">
-                With our Asset Financing options, you can acquire new assets or
-                upgrade existing ones without straining your finances. We
-                provide funding for vehicles, machinery, and other essential
-                assets with flexible terms tailored to meet your needs.
-              </p>
-              <button
-                className="btn rounded-0"
-                style={{ backgroundColor: "#103d66", color: "#fff" }}
-              >
-                Valuation Schema
-              </button>
-            </div>
-          </div>
-
-          <div className="row  py-2 align-items-center">
+          {/* <div className="row  py-2 align-items-center">
             <div className="col-sm-12 col-md-6 mb-3">
               <h2 className="about-heading">Business Loan</h2>
               <p className="about-text">
@@ -128,7 +100,7 @@ function Loans() {
                 className="img-fluid shadow"
               />
             </div>
-          </div>
+          </div> */}
         </section>
       </div>
     </div>
