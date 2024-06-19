@@ -10,7 +10,7 @@ function Footer() {
         className="container-fluid py-5 text-white"
         style={{ backgroundColor: "#103d66" }}
       >
-        <div className="text-center">
+        <div className="text-center mb-3">
           <Image
             src="/logo.svg"
             alt="Tech Africa SACCO"
@@ -19,8 +19,9 @@ function Footer() {
           />
           <h1 className="mt-3">Tech Africa SACCO</h1>
           <p>Empowering communities through financial excellence and trust</p>
+          <hr className="w-25 mx-auto" />
         </div>
-        <section className="container">
+        <section className="container py-3">
           <div className="row">
             <div className="col-md-3 col-sm-12 mb-3">
               <h6>Quick Links</h6>
