@@ -34,7 +34,7 @@ function About() {
                     >
                       <div className="card-body">
                         <i className={item.icon}></i>
-                        <h5 className="card-title mt-3 mb-0">{item.title}</h5>
+                        <p className="card-title fw-bold mt-3 mb-0">{item.title}</p>
                       </div>
                     </div>
                   </div>
