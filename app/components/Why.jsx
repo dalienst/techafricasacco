@@ -21,7 +21,7 @@ function Why() {
             Easy to view accounts, apply for loans, access policy information
             with our self-service tools
           </p>
-          <div className="row">
+          <div className="row px-3">
             <div className="col-sm-12 col-md-6 mb-3">
               <div className="card rounded-5">
                 <div className="card-body d-flex align-items-center justify-content-between gap-3">
@@ -31,8 +31,8 @@ function Why() {
                   <div className="text-start">
                     <h6 className="card-title">Accounts</h6>
                     <p className="card-text">
-                      View accounts, and access policy information with our
-                      self-service tools
+                      Apply for loans with our online loan application form
+                      through the onboarding process
                     </p>
                   </div>
                 </div>
@@ -57,40 +57,7 @@ function Why() {
             </div>
           </div>
 
-          <section className="py-5 px-4 mt-3">
-            <div className="row align-items-center">
-              <div className="col-sm-12 col-md-6 mb-3">
-                <Image
-                  src="/app.jpg"
-                  alt="Tech Africa SACCO"
-                  width={450}
-                  height={450}
-                  priority
-                  className="img-fluid rounded-3"
-                />
-              </div>
-
-              <div className="col-sm-12 col-md-6 mb-3 ">
-                <h3 className="text-start title mb-3">
-                  Stay connected with the TA Portal Web Application
-                </h3>
-
-                <p className="text-start">
-                  View accounts, and access policy information with our
-                  self-service tools
-                </p>
-
-                <div className="text-start">
-                  <button
-                    className="btn rounded-0 btn-sm"
-                    style={{ backgroundColor: "#103d66", color: "#fff" }}
-                  >
-                    Visit Portal
-                  </button>
-                </div>
-              </div>
-            </div>
-          </section>
+          
         </div>
       </div>
     </div>
