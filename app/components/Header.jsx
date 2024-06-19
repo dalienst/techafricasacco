@@ -4,7 +4,7 @@ import React from "react";
 function Header() {
   return (
     <div
-      className="container-fluid bg-light py-5"
+      className="container-fluid bg-light py-5 d-flex align-items-center"
       style={{ minHeight: "55vh", backgroundColor: "#f2ecf6" }}
     >
       <div className="container">
