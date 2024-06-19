@@ -29,8 +29,8 @@ function About() {
               {aboutSummary?.map((item) => (
                 <div className="col-md-4 col-sm-12 mb-3" key={item.id}>
                   <div
-                    className="card h-100 rounded-0"
-                    style={{ backgroundColor: "#effdfe" }}
+                    className="card h-100 rounded-5 bg-light"
+                    // style={{ backgroundColor: "#effdfe" }}
                   >
                     <div className="card-body ">
                       <i className={item.icon} style={{ color: "#103d66" }}></i>
