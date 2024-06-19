@@ -1,8 +1,9 @@
 "use client";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import { Suspense } from "react";
+import React, { Suspense } from "react";
 import BootstrapClient from "@/components/providers/BootstrapClient";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
@@ -15,7 +16,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className="body">
-        <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+        {children}
         <BootstrapClient />
       </body>
     </html>
