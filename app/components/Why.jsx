@@ -30,7 +30,7 @@ function Why() {
                   <div className="text-start">
                     <h6 className="card-title">Accounts</h6>
                     <p className="card-text">
-                      View accounts, apply for loans, and access policy
+                      View accounts, and access policy
                       information with our self-service tools
                     </p>
                   </div>
@@ -47,7 +47,7 @@ function Why() {
                   <div className="text-start">
                     <h6 className="card-title">Apply for loans</h6>
                     <p className="card-text">
-                      Apply for loans with our online loan application form and follow through the onboarding process
+                      Apply for loans with our online loan application form through the onboarding process
                     </p>
                   </div>
                 </div>
